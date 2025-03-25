@@ -1,93 +1,149 @@
-## 📌 AI Voice Assistant using Python ##
+# 📌 AI Voice Assistant using Python
+
 🚀 A smart AI-powered voice assistant built using Python that can respond to voice commands, open applications, fetch weather updates, answer general queries, and much more!
-![5209989](https://github.com/user-attachments/assets/912e3dc0-49f8-475a-afe4-3339a06515d1)
 
+![AI Voice Assistant](https://github.com/user-attachments/assets/912e3dc0-49f8-475a-afe4-3339a06515d1)
 
-## 🔍 Features ##
-✅ Speech Recognition – Understands and processes voice commands.
-✅ Text-to-Speech (TTS) – Converts responses into speech output.
-✅ Task Automation – Opens applications, searches Google, plays music, etc.
-✅ Wikipedia Integration – Fetches information from Wikipedia.
-✅ Weather Updates – Provides real-time weather information.
-✅ News Headlines – Reads out the latest news.
-✅ Smart Reminders – Sets reminders based on voice input.
-✅ GUI (Optional) – A graphical interface for easier interaction.
+---
 
-## 🛠️ Tech Stack ##
-Programming Language: Python 🐍
-Libraries Used:
-SpeechRecognition → Converts voice to text
-pyttsx3 → Converts text to speech
-wikipedia → Fetches information from Wikipedia
-pywhatkit → Plays YouTube videos and performs searches
-datetime → Retrieves date and time
-os → Opens applications
-requests → Fetches weather and news updates
-Tkinter (Optional) → GUI interface
+## 🔍 Features
+✅ **Speech Recognition** – Understands and processes voice commands.  
+✅ **Text-to-Speech (TTS)** – Converts responses into speech output.  
+✅ **Task Automation** – Opens applications, searches Google, plays music, etc.  
+✅ **Wikipedia Integration** – Fetches information from Wikipedia.  
+✅ **Weather Updates** – Provides real-time weather information.  
+✅ **News Headlines** – Reads out the latest news.  
+✅ **Smart Reminders** – Sets reminders based on voice input.  
+✅ **GUI (Optional)** – A graphical interface for easier interaction.  
 
-## 📦 Installation ##
-1️⃣ Prerequisites
-Ensure you have Python 3.8+ installed on your system.
-Download Python: https://www.python.org/downloads/
+---
 
-2️⃣ Install Dependencies
+## 🛠️ Tech Stack
+**Programming Language:** Python 🐍  
+
+### **Libraries Used:**
+- `SpeechRecognition` → Converts voice to text  
+- `pyttsx3` → Converts text to speech  
+- `wikipedia` → Fetches information from Wikipedia  
+- `pywhatkit` → Plays YouTube videos and performs searches  
+- `datetime` → Retrieves date and time  
+- `os` → Opens applications  
+- `requests` → Fetches weather and news updates  
+- `Tkinter (Optional)` → GUI interface  
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Prerequisites
+Ensure you have **Python 3.8+** installed on your system.  
+🔗 [Download Python](https://www.python.org/downloads/)
+
+### 2️⃣ Install Dependencies
 Run the following commands in your terminal or command prompt:
+```bash
 pip install speechrecognition pyttsx3 wikipedia pywhatkit requests
 pip install pyaudio pillow openai
-(If pyaudio installation fails, use pip install pipwin → pipwin install pyaudio)
-🚀 Usage
-Clone the repository:
-git clone https://github.com/your-username/AI-Voice-Assistant.git
+```
+⚠ **Note:** If `pyaudio` installation fails, use:
+```bash
+pip install pipwin 
+pipwin install pyaudio
+```
+
+### 3️⃣ Clone the Repository
+```bash
+git clone https://github.com/shadab04/AI-Voice-Assistant.git
 cd AI-Voice-Assistant
-Run the program:
+```
+
+### 4️⃣ Run the Program
+```bash
 python assistant.py
-Speak commands like:
-"Open Notepad"
-"Search Python on Google"
-"What is the time?"
-"Tell me about Albert Einstein from Wikipedia"
-"Play a song on YouTube"
-📜 Project Workflow (DFD)
-📌 Data Flow Diagram (DFD)
- ![Screenshot 2025-02-04 160809](https://github.com/user-attachments/assets/628e8696-9d0c-4e81-a82e-9fc4831f59f5)
+```
 
+### 5️⃣ Sample Voice Commands:
+- **"Open Notepad"**  
+- **"Search Python on Google"**  
+- **"What is the time?"**  
+- **"Tell me about Albert Einstein from Wikipedia"**  
+- **"Play a song on YouTube"**  
 
-## 🛠️ Modules ##
-Speech Recognition Module
-Task Execution Module
-NLP (Natural Language Processing)
-GUI (Optional)
-Database for User Preferences (Future Enhancement)
-📝 To-Do List
- Basic Voice Assistant Features
- Wikipedia Integration
- Open Websites & Apps
- Smart Home Integration
- Multi-language Support
- GPT-based Chat Mode
-📷 Screenshots
-![Screenshot 2025-02-04 160941](https://github.com/user-attachments/assets/e5b1369d-51b1-448b-901d-cd177bac96db)
+---
 
+## 📜 Project Workflow (DFD)
 
-🙌 Contribution
-Want to improve this project? Follow these steps:
+### Data Flow Diagram (DFD)
+![Data Flow Diagram](https://github.com/user-attachments/assets/628e8696-9d0c-4e81-a82e-9fc4831f59f5)
 
-Fork the repo.
-Create a new branch (feature-branch).
-Commit your changes: git commit -m "Added a new feature"
-Push the changes: git push origin feature-branch
-Open a Pull Request.
-🔒 Limitations
-Accent Recognition Issues – May not always recognize non-standard accents.
-Limited Offline Support – Needs internet for Wikipedia and weather updates.
-Privacy Concerns – AI assistants may process sensitive voice data.
-📜 License
-This project is open-source under the MIT License. Feel free to modify and distribute it.
+---
 
-💬 Contact
-📧 Email: your.email@example.com
-🔗 LinkedIn: Your LinkedIn
-💻 GitHub: Your GitHub
+## 🛠️ Modules
 
-⭐ Star this repo if you like it!
-If you found this project useful, give it a ⭐ on GitHub! 😊
+🔹 **Speech Recognition Module** – Converts voice to text.  
+🔹 **Task Execution Module** – Performs operations based on user commands.  
+🔹 **NLP (Natural Language Processing)** – Enhances command interpretation.  
+🔹 **GUI (Optional)** – User-friendly interface for interaction.  
+🔹 **Database for User Preferences** _(Future Enhancement)_ – Saves user preferences for a personalized experience.
+
+---
+
+## 📌 To-Do List
+✔ **Basic Voice Assistant Features**  
+✔ **Wikipedia Integration**  
+✔ **Open Websites & Apps**  
+🚧 **Smart Home Integration** _(Upcoming)_  
+🚧 **Multi-language Support** _(Upcoming)_  
+🚧 **GPT-based Chat Mode** _(Upcoming)_  
+
+---
+
+## 📷 Screenshots
+
+![Screenshot](https://github.com/user-attachments/assets/e5b1369d-51b1-448b-901d-cd177bac96db)
+
+---
+
+## 🙌 Contribution
+
+Want to contribute? Follow these steps:
+
+1. **Fork the Repository**
+2. **Create a New Branch**
+```bash
+git checkout -b feature-branch
+```
+3. **Commit Your Changes**
+```bash
+git commit -m "Added a new feature"
+```
+4. **Push to GitHub**
+```bash
+git push origin feature-branch
+```
+5. **Create a Pull Request**
+
+---
+
+## 🔒 Limitations
+
+⚠ **Accent Recognition Issues** – May not always recognize non-standard accents.  
+⚠ **Limited Offline Support** – Requires an internet connection for Wikipedia and weather updates.  
+⚠ **Privacy Concerns** – AI assistants may process sensitive voice data.
+
+---
+
+## 📜 License
+
+This project is open-source under the **MIT License**.  
+Feel free to modify and distribute it.
+
+---
+
+## 💬 Contact
+
+📧 **Email:** shadabkhanasr04@gmail.com  
+🔗 **LinkedIn:** [Shadab Khan](https://www.linkedin.com/in/shadab-khan-37b564236/)  
+💻 **GitHub:** [shadab04](https://github.com/shadab04)  
+
+⭐ **If you found this project useful, give it a star on GitHub!** 😊
